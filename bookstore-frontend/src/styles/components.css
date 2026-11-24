@@ -1,0 +1,377 @@
+/* === BookDetail 组件样式 === */
+
+.not-found-container {
+  text-align: center;
+  padding: 60px;
+}
+
+.back-button {
+  margin-bottom: 24px;
+}
+
+.book-cover {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.price-title {
+  margin: 24px 0;
+}
+
+.add-cart-btn {
+  margin-right: 16px;
+}
+
+/* === BookList 组件样式 === */
+
+.carousel-container {
+  margin-bottom: 32px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.section-title {
+  margin-bottom: 24px;
+}
+
+.search-result-text {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 12px;
+  color: #666;
+}
+
+/* === Cart 组件样式 === */
+
+.cart-item-image {
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* === Login 组件样式 === */
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.login-card {
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.login-logo-area {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.login-icon {
+  font-size: 48px;
+  color: #1890ff;
+}
+
+.login-title {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.login-btn {
+  margin-top: 8px;
+}
+
+.login-tip-area {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.login-tip-text {
+  font-size: 12px;
+}
+
+/* === Orders 组件样式 === */
+
+.order-card {
+  margin-bottom: 16px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.order-item-image {
+  width: 50px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.order-total-area {
+  text-align: right;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.order-total-text {
+  font-size: 18px;
+}
+
+/* === Profile 组件样式 === */
+
+.profile-avatar-area {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.profile-name-title {
+  margin-top: 16px;
+}
+
+/* === BookCard 组件样式 === */
+
+.book-card-image {
+  object-fit: cover;
+  padding: 16px 16px 0 16px;
+}
+
+.book-card-title {
+  margin: 0;
+}
+
+.book-card-price {
+  font-size: 18px;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+/* === 通用加载样式 === */
+
+.loading-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.loading-container-large {
+  text-align: center;
+  padding: 60px;
+}
+
+/* === Layout 组件样式 === */
+
+.layout-main {
+  min-height: 100vh;
+}
+
+.layout-sider {
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #fff;
+}
+
+.layout-logo-area {
+  padding: 24px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.layout-logo-icon {
+  font-size: 24px;
+  color: #1890ff;
+}
+
+.layout-logo-title {
+  margin: 0;
+  color: #1890ff;
+}
+
+.layout-menu {
+  border-right: none;
+  margin-top: 12px;
+}
+
+.layout-bottom-area {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px 20px;
+  border-top: 1px solid #f0f0f0;
+  background: #fff;
+}
+
+.layout-content-area {
+  margin-left: 220px;
+}
+
+.layout-header {
+  background: #fff;
+  padding: 0 30px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.layout-search {
+  width: 350px;
+}
+
+/* 顶栏：退换货与会员政策入口 */
+.layout-header .layout-policy-btn {
+  border-color: #d6e0f7;
+  border-radius: 8px;
+  background: #f6f9ff;
+  color: #3f57b5;
+  font-size: 12.5px;
+}
+
+.layout-header .layout-policy-btn:hover {
+  border-color: #8ea6ef;
+  background: #eef3ff;
+  color: #2f49a8;
+}
+
+.layout-cart-icon {
+  font-size: 20px;
+  color: #666;
+  cursor: pointer;
+}
+
+.layout-user-area {
+  cursor: pointer;
+}
+
+.layout-content {
+  margin: 24px;
+  background: #f5f7fa;
+}
+
+.layout-content-inner {
+  padding: 24px;
+  min-height: calc(100vh - 140px);
+}
+
+/* === 管理页面通用样式 === */
+
+.manage-page {
+  padding: 24px;
+}
+
+.manage-section-title {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.manage-space {
+  margin-bottom: 16px;
+}
+
+.manage-input {
+  width: 300px;
+}
+
+.manage-input-small {
+  width: 200px;
+}
+
+.manage-input-full {
+  width: 100%;
+}
+
+/* === BookManage 组件样式 === */
+
+.book-manage-cover-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* === Orders 组件样式 === */
+
+.orders-search-card {
+  margin-bottom: 16px;
+}
+
+.orders-card {
+  margin-bottom: 16px;
+}
+
+.orders-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.orders-detail-area {
+  margin-top: 8px;
+}
+
+.orders-item-row {
+  margin-left: 16px;
+  margin-top: 4px;
+}
+
+.orders-item-secondary {
+  margin-left: 8px;
+}
+
+.orders-total-area {
+  margin-top: 12px;
+  text-align: right;
+}
+
+.orders-total-text {
+  font-size: 16px;
+}
+
+/* === Statistics 组件样式 === */
+
+.statistics-page {
+  padding: 24px;
+}
+
+.statistics-search-card {
+  margin-bottom: 16px;
+}
+
+.statistics-row {
+  margin-bottom: 16px;
+}
+
+/* === UserManage 组件样式 === */
+
+.user-manage-page {
+  padding: 24px;
+}
+
+.user-manage-section-title {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.user-manage-disabled-text {
+  color: #999;
+}

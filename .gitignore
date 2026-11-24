@@ -1,0 +1,42 @@
+# ---------- Java / Maven ----------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+
+# ---------- Node / 前端 ----------
+node_modules/
+dist/
+.vite/
+*.local
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.settings/
+.project
+.classpath
+
+# ---------- OS ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---------- 压缩包 / 临时文件 ----------
+*.rar
+*.zip
+*.7z
+*.tmp
+_snapshots/
+_ghpush/

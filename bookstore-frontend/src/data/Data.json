@@ -1,0 +1,80 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "三体",
+      "author": "刘慈欣",
+      "price": "$49.90",
+      "isbn": "978-7-5366-9293-0",
+      "cover": "https://img.doooor.com/img/forum/202306/20/152915m79us70mmkummtm8.jpg",
+      "description": "《三体》是刘慈欣创作的系列长篇科幻小说，由《三体》《三体Ⅱ·黑暗森林》《三体Ⅲ·死神永生》组成，第一部于2006年5月起在《科幻世界》杂志上连载，讲述了地球人类文明和三体文明的信息交流、生死搏杀及两个文明在宇宙中的兴衰历程。",
+      "publisher": "重庆出版社",
+      "publishDate": "2008-01",
+      "pages": 302
+    },
+    {
+      "id": "2",
+      "title": "城南旧事",
+      "author": "林海音",
+      "price": "$29.90",
+      "isbn": "978-7-02-000000-0",
+      "cover": "https://ts2.tc.mm.bing.net/th/id/OIP-C.tPoXyq_DNPsE3xXg7vpjogHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "description": "《城南旧事》是台湾女作家林海音的代表作。该作品通过英子童稚的双眼对童年往事的回忆，讲述了一段关于英子童年时的故事，反映了作者对童年的怀念和对北京城南的思念。",
+      "publisher": "人民文学出版社",
+      "publishDate": "1960-01",
+      "pages": 120
+    },
+    {
+      "id": "3",
+      "title": "未知的探索",
+      "author": "未知",
+      "price": "$35.00",
+      "isbn": "978-7-000-00000-1",
+      "cover": "https://ts4.tc.mm.bing.net/th/id/OIP-C.7VRPVN8q77Yey_j0IUL3nAHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "description": "这是一本关于科学探索的书籍，带领读者进入未知的科学世界，探索宇宙的奥秘和人类未知的领域。",
+      "publisher": "科学出版社",
+      "publishDate": "2020-01",
+      "pages": 280
+    },
+    {
+      "id": "4",
+      "title": "故事新编",
+      "author": "鲁迅",
+      "price": "$59.00",
+      "isbn": "978-7-000-00000-2",
+      "cover": "https://ts2.tc.mm.bing.net/th/id/OIP-C.yvz65pOLos0Cs0Sik2xIOAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "description": "《故事新编》是鲁迅的一部短篇小说集，收录了《补天》《奔月》《理水》《采薇》《铸剑》《出关》《非攻》《起死》八篇小说。",
+      "publisher": "人民文学出版社",
+      "publishDate": "1936-01",
+      "pages": 150
+    },
+    {
+      "id": "5",
+      "title": "Java核心技术",
+      "author": "Cay S. Horstmann",
+      "price": "$45.00",
+      "isbn": "978-7-000-00000-3",
+      "cover": "https://ts4.tc.mm.bing.net/th/id/OIP-C.cb7vG9W0HfwFJH96N1gO8AHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "description": "《Java核心技术》是2008年由机械工业出版社出版的图书，作者是Cay S. Horstmann。本书是Java领域最有影响力和价值的著作之一。",
+      "publisher": "机械工业出版社",
+      "publishDate": "2008-01",
+      "pages": 800
+    },
+    {
+      "id": "6",
+      "title": "红楼梦",
+      "author": "曹雪芹",
+      "price": "$69.90",
+      "isbn": "978-7-000-00000-4",
+      "cover": "https://ts4.tc.mm.bing.net/th/id/OIP-C.i4E79ILzhTkIB8jXBBfMYQHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "description": "《红楼梦》是中国古代章回体长篇小说，中国古典四大名著之一。小说以贾、史、王、薛四大家族的兴衰为背景，以富贵公子贾宝玉为视角，以贾宝玉与林黛玉、薛宝钗的爱情婚姻悲剧为主线。",
+      "publisher": "人民文学出版社",
+      "publishDate": "1791-01",
+      "pages": 1200
+    }
+  ],
+  "user": {
+    "name": "toothache",
+    "avatar": "https://via.placeholder.com/40"
+  }
+}
